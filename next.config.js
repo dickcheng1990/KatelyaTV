@@ -6,10 +6,8 @@ const nextConfig = {
     dirs: ['src'],
   },
 
-  reactStrictMode: true,
-   experimental: {
-    runtime: 'edge', // 加这一段
-  },
+  reactStrictMode: false,
+  
   },
   swcMinify: true,
 
