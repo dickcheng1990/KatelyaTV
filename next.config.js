@@ -6,7 +6,11 @@ const nextConfig = {
     dirs: ['src'],
   },
 
-  reactStrictMode: false,
+  reactStrictMode: true,
+   experimental: {
+    runtime: 'edge', // 加这一段
+  },
+  },
   swcMinify: true,
 
   // Uncoment to add domain whitelist
